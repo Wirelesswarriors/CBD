@@ -1,0 +1,62 @@
+
+.overlay-black{
+    position: absolute;
+    top: 0; left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index:1;
+    animation-name:fadeIn;
+    animation-duration:1s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+h1, h2, p, a {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+}
+
+h1 {
+    font-size: 60px;
+    color:white;
+}
+
+a {
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    
+}
+table {
+    width: 100%;
+    padding-top: 14px;
+  }
+
+#button {
+    border-color: white;
+    border-width: 3px;
+    border-radius: 32px;
+    border-style: dashed;
+    color: white;
+
+}
+#button:hover {
+    border-color: white;
+    border-style: solid;
+}
+.page {
+    background-image: linear-gradient( black, lightblue);
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+  
